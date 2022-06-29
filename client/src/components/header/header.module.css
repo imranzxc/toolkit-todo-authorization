@@ -1,0 +1,39 @@
+.header {
+  margin-top: 10px;
+  margin-right: 50px;
+  display: flex;
+  justify-content: flex-end;
+  background-color: transparent;
+  padding-top: 20px;
+}
+
+.logo {
+  font-weight: normal;
+  font-size: 30px;
+}
+
+.list {
+  display: flex;
+  list-style: none;
+}
+
+.item {
+  margin-right: 15px;
+ 
+}
+
+.item:last-child {
+  margin-right: 0;
+}
+
+.link {
+  font-weight: bold;
+  font-size: 18px;
+  padding-bottom: 5px;
+  color: #8e49e8;
+}
+
+.link:hover {
+  border-bottom: 3px solid rgba(6, 6, 6, 0.5);
+}
+
